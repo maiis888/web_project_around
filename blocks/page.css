@@ -22,6 +22,7 @@ p {
 .button:hover {
   /*Media query para hover en botones*/
   opacity: 60%;
+  cursor: url("../images/custom-pointer.png"), pointer;
 }
 
 .card {
@@ -29,7 +30,3 @@ p {
   background-color: #fff;
   overflow: hidden;
 }
-/*
-Crear hojas de estilo para las secciones HTML dentro de la carpeta blocks
-Importar estas hojas de estilo en index.css
-*/
