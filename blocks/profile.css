@@ -1,0 +1,48 @@
+.profile__content {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.profile__user {
+  display: flex;
+}
+.profile__avatar {
+  max-width: 120px;
+  max-height: 120px;
+}
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  max-width: 420px;
+}
+
+.profile__name-container {
+  display: flex;
+  align-items: center;
+}
+.profile__name {
+  color: #fff;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1;
+}
+.profile__edit-button {
+  max-width: 24px;
+  max-height: 24px;
+  padding-left: 18px;
+}
+.profile__occupation {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  padding-top: 16px;
+}
+.profile__add-button {
+  max-width: 150px;
+  max-height: 50px;
+  align-content: flex-end;
+}
