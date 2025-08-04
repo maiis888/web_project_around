@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Mariana Usabiaga" />
-    <meta name="description" content="Descripción sobre la página." />
-    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <meta name="description" content="Crea tu perfil y explora una galería de imágenes de lugares icónicos." />
+    <meta name="keywords" content="fotografía, perfil, editar, galería, JavaScript, diseño responsivo" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./" type="image/x-icon" />
-    <title>Título</title>
+    <link rel="icon" href="./favicon.svg" type="image/x-icon" />
+    <title>Around The U.S.</title>
   </head>
   <body>
     <div class="page">
@@ -23,23 +23,145 @@
       </header>
 
       <main class="content">
-        <section class="seccion-1">
-          <!--Contenido de sección 1-->
-          <!--Crear hoja de estilo en carpeta blocks-->
+        <section class="profile">
+          <div class="profile__content">
+            <div class="profile__user">
+              <img
+                class="profile__avatar"
+                src="./images/profile__avatar.png"
+                alt="Jacques Cousteau"
+              />
+              <div class="profile__info">
+                <div class="profile__name-container">
+                  <h1 class="profile__name">Jacques Cousteau</h1>
+                  <img
+                    class="button profile__edit-button"
+                    src="./images/edit-button.svg"
+                    alt="Editar"
+                  />
+                </div>
+                <p class="profile__occupation">Explorador</p>
+              </div>
+            </div>
+            <div class="button profile__add-button">
+              <img
+              class="add-button__image"
+              src="./images/add-button.svg"
+              alt="Añadir"
+            />
+            </div>
+          </div>
         </section>
 
-        <section class="seccion-2">
-          <!--Contenido de sección 2-->
-          <!--Crear hoja de estilo en carpeta blocks-->
+        <section class="elements">
+          <div class="elements__content">
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-bosque.jpg"
+                alt="Bosque"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Valle de Yosemite</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-vanoise.jpg"
+                alt="Vanoise National Park"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Vanoise National Park</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-lago.jpg"
+                alt="Lago Louise"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Lago Louise</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-montana.jpg"
+                alt="Montañas Calvas"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Montañas Calvas</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-latemar.jpg"
+                alt="Latemar"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Latemar</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+            <!--COMIENZA TARJETA-->
+            <div class="card elements__card">
+              <img
+                class="card__image"
+                src="./images/img-braies.jpg"
+                alt="Lago di Braies"
+              />
+              <div class="card__description">
+                <h2 class="card__title">Lago di Braies</h2>
+                <img
+                  class="button card__like-button"
+                  src="./images/like-button.svg"
+                  alt="Me gusta"
+                />
+              </div>
+            </div>
+            <!--TERMINA TARJETA-->
+          </div>
         </section>
-
-        <section class="seccion-3">
-          <!--Contenido de sección 3-->
-          <!--Crear hoja de estilo en carpeta blocks-->
-        </section>
-      </main>
 
       <footer class="footer">
+        <p class="footer__content">&copy 2024 Around The U.S.</p>
         <!--Contenido footer-->
         <!--Crear hoja de estilo en carpeta blocks-->
       </footer>

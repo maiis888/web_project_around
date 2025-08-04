@@ -5,3 +5,14 @@
   font-size: 18px;
   line-height: 100%;
 }
+
+/* ###################################     M E D I A     Q U E R I E S     ################################### */
+
+@media screen and (max-width: 920px) {
+  .footer__content {
+    width: 282px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+}
