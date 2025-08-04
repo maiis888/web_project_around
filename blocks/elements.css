@@ -39,3 +39,15 @@
   width: 20px;
   height: 20px;
 }
+
+/* ###################################     M E D I A     Q U E R I E S     ################################### */
+
+@media screen and (max-width: 920px) {
+  .elements__content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 50px;
+    justify-items: center;
+  }
+}
