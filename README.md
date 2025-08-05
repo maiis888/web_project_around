@@ -30,9 +30,7 @@ Este proyecto es una página web interactiva inspirada en una red social de viaj
 
 ## 🚀 GitHub Pages
 
-Puedes ver la versión publicada del proyecto aquí:  
-[🔗 Enlace a GitHub Pages](https://tugithubusuario.github.io/web_project_around/)
-
-> (Asegúrate de reemplazar la URL con la de tu repositorio real)
+Ver la versión publicada del proyecto aquí:  
+🔗 https://maiis888.github.io/web_project_around
 
 ---
