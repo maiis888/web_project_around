@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Mariana Usabiaga" />
-    <meta name="description" content="Crea tu perfil y explora una galería de imágenes de lugares icónicos." />
-    <meta name="keywords" content="fotografía, perfil, editar, galería, JavaScript, diseño responsivo" />
+    <meta
+      name="description"
+      content="Crea tu perfil y explora una galería de imágenes de lugares icónicos."
+    />
+    <meta
+      name="keywords"
+      content="fotografía, perfil, editar, galería, JavaScript, diseño responsivo"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="./favicon.svg" type="image/x-icon" />
     <title>Around The U.S.</title>
@@ -34,22 +40,20 @@
               <div class="profile__info">
                 <div class="profile__name-container">
                   <h1 class="profile__name">Jacques Cousteau</h1>
-                  <img
+                  <button
                     class="button profile__edit-button"
-                    src="./images/edit-button.svg"
-                    alt="Editar"
-                  />
+                    type="button"
+                    aria-label="Editar perfil"
+                  ></button>
                 </div>
                 <p class="profile__occupation">Explorador</p>
               </div>
             </div>
-            <div class="button profile__add-button">
-              <img
-              class="add-button__image"
-              src="./images/add-button.svg"
-              alt="Añadir"
-            />
-            </div>
+            <button
+              class="button profile__add-button"
+              type="button"
+              aria-label="Añadir nueva tarjeta"
+            ></button>
           </div>
         </section>
 
@@ -64,11 +68,11 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Valle de Yosemite</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
@@ -81,11 +85,11 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Vanoise National Park</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
@@ -98,11 +102,11 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Lago Louise</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
@@ -115,11 +119,11 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Montañas Calvas</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
@@ -132,11 +136,11 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Latemar</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
@@ -149,22 +153,54 @@
               />
               <div class="card__description">
                 <h2 class="card__title">Lago di Braies</h2>
-                <img
+                <button
                   class="button card__like-button"
-                  src="./images/like-button.svg"
-                  alt="Me gusta"
-                />
+                  type="button"
+                  aria-label="Me gusta"
+                ></button>
               </div>
             </div>
             <!--TERMINA TARJETA-->
           </div>
         </section>
+      </main>
 
       <footer class="footer">
         <p class="footer__content">&copy 2024 Around The U.S.</p>
-        <!--Contenido footer-->
-        <!--Crear hoja de estilo en carpeta blocks-->
       </footer>
     </div>
+
+    <div class="popup">
+      <div class="popup__container">
+        <button class="button popup__close-button" type="button"></button>
+        <form class="popup__form" name="edit-profile-form" novalidate>
+          <div class="form__title">
+            <h2 class="popup__title">Editar perfil</h2>
+          </div>
+          <div class="form__input">
+            <input
+              type="text"
+              class="popup__input popup__input_name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              class="popup__input popup__input_occupation"
+              name="about"
+              placeholder="Acerca de mí"
+              required
+            />
+          </div>
+          <div class="form__button">
+            <button class="button popup__save-button" type="submit">
+              Guardar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
