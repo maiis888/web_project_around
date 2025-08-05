@@ -55,7 +55,7 @@
   line-height: 100%;
   text-align: left;
 }
-.form__input {
+.popup__form-input {
   display: flex;
   flex-direction: column;
   gap: 30px;
