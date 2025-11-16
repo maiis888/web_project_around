@@ -1,3 +1,4 @@
+//Etapa 1 Sprint 8
 //Desplegar popup
 let profileButtonEdit = document.querySelector(".profile__edit-button");
 let profilePopup = document.querySelector(".popup");
